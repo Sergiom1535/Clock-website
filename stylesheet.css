@@ -1,0 +1,60 @@
+
+.navbar{
+    background-color: grey;
+    border: solid 4px violet;
+    overflow: hidden;
+}
+.navbar nav{
+    overflow: hidden;
+    display: block;
+}
+.navbar a{
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover{
+    background-color: blueviolet;
+    color: black;
+}
+
+.navbar input[type=text]{
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+
+}
+
+.container{
+    border: solid 4px violet;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: grey;
+    margin: 0,0,0,0;
+}
+.display-4{
+    margin-left: auto;
+    text-align: center;
+}
+.lead{
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    border: solid 4px violet;
+    background-color: grey;
+    color:white;
+    padding-top: 10px;
+    font-size: 18px;
+}
